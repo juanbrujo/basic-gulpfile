@@ -1,0 +1,18 @@
+@baseBg: #ececec;
+@baseTxt: #3f3739;
+@linkcolor: #666;
+@hoverColor: #5fd8dd;
+
+body{
+  background-color: @baseBg;
+  color: @baseTxt;
+  font-family: sans-serif;
+}
+  a{
+    color: @linkcolor;
+    text-decoration: none;
+
+    &:hover {
+      color: @hoverColor;
+    }
+  }
