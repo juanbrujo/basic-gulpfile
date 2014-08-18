@@ -1,17 +1,31 @@
 {
   "name": "basic-gulpfile",
-  "version": "0.1.0",
+  "title": "Base Gulp.js workflow for simple front-end projects",
+  "homepage": "https://github.com/juanbrujo/basic-gulpfile",
+  "version": "0.2.0",
+  "author": {
+    "name": "Jorge Epuñan",
+    "url": "https://github.com/juanbrujo",
+    "twitter": "@csslab"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://mit-license.org/"
+    }
+  ],
   "dependencies": {},
   "devDependencies": {
-    "connect": "~2.12.0",
-    "gulp": "~3.5.1",
-    "gulp-imagemin": "~0.1.4",
-    "gulp-livereload": "~0.3.1",
-    "gulp-less": "~1.2.1",
-    "gulp-minify-css": "~0.2.0",
-    "gulp-uglify": "~0.2.0",
-    "gulp-util": "~2.2.9",
-    "gulp-watch": "~0.5.0",
-    "tiny-lr": "~0.0.5"
+    "connect": "^3.1.1",
+    "gulp": "^3.8.7",
+    "gulp-imagemin": "^1.0.0",
+    "gulp-livereload": "^2.1.0",
+    "gulp-less": "^1.3.5",
+    "gulp-minify-css": "^0.3.7",
+    "gulp-uglify": "^0.3.1",
+    "gulp-util": "^3.0.0",
+    "gulp-watch": "^0.6.9",
+    "tiny-lr": "^0.1.0"
   }
 }
+
